@@ -1,0 +1,9 @@
+{
+	"name": "GITREPOSSAHITH",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6e14db26-a4d3-4f0b-a0fe-c1956dbc04b5",
+		"tenantId": "e4e34038-ea1f-4882-b6e8-ccd776459ca0"
+	}
+}
