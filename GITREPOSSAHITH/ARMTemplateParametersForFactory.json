@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "GITREPOSSAHITH"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
 		}
 	}
 }
