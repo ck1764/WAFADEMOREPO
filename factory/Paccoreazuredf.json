@@ -1,0 +1,9 @@
+{
+	"name": "Paccoreazuredf",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2c858dae-a6e0-46c2-a66b-755c48148587",
+		"tenantId": "b03b1808-6fae-4911-9a13-3c587c0a0eb0"
+	}
+}
