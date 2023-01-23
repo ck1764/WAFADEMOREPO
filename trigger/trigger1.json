@@ -1,0 +1,25 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline3",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/yira/blobs/",
+			"blobPathEndsWith": "xlsx",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/6d29758f-fd52-4e48-87ec-eedc382118ac/resourceGroups/Paccore_PG/providers/Microsoft.Storage/storageAccounts/storageaccpaccore2",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
